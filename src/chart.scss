@@ -1,0 +1,34 @@
+.parent {
+  display: flex;
+  margin: 3%;
+  margin-left: 80px;
+  height: 550px;
+  width: 1200px;
+
+  .child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+  }
+}
+.btn {
+  background-color: #2ecff8; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.img {
+  background-image: url("../public/img/ink.png");
+  width: 100%;
+  height: 50%;
+  margin-top: 0px;
+}
